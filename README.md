@@ -13,6 +13,13 @@ In your terminal, install several dash libraries. These libraries are under acti
 ### Install Pandas if needed
         pip install pandas  --user
 
+
+### Fixing Visual Code Certificate problem
+
+Enter the command from your project folder
+
+        git config --global http.sslBackend schannel
+
 To get started, create a file named `app.py` with the following code:
 # -*- coding: utf-8 -*-
 
